@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#input-field {
+    pointer-events: none;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 5px;
+
+}
+
+#input-field::selection {
+    background-color: rgb(157, 153, 153);
+}
