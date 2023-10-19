@@ -7,11 +7,22 @@
 #input-field {
     pointer-events: none;
     padding: 10px;
-    border: solid 1px grey;
+    border: solid .1px grey;
     border-radius: 5px;
 
 }
 
 #input-field::selection {
     background-color: rgb(157, 153, 153);
+}
+
+.copy-btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.copy-btn:hover {
+    background-color: grey;
 }
